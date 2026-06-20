@@ -1,11 +1,11 @@
-# CLAUDE.md — Router del Segundo Cerebro
+# AGENTS.md — Router del Segundo Cerebro
 
 Instrucciones para el asistente de IA que trabaja en esta carpeta. Esto es un
 **segundo cerebro personal**: una base de conocimiento viva hecha de archivos
 Markdown. No es un proyecto de software.
 
-Este archivo se carga automáticamente en Claude. En Codex, el router equivalente es
-`AGENTS.md`. Mantén ambos archivos sincronizados cuando cambies reglas de operación.
+Este archivo se carga automáticamente en Codex. En Claude, el router equivalente es
+`CLAUDE.md`. Mantén ambos archivos sincronizados cuando cambies reglas de operación.
 Todo lo demás se lee cuando se necesita.
 
 ---
@@ -14,8 +14,8 @@ Todo lo demás se lee cuando se necesita.
 
 | Archivo | Qué guarda | Cuándo leerlo |
 |---|---|---|
-| `CLAUDE.md` (este) | Reglas y ruteo | Siempre (se carga solo) |
-| `AGENTS.md` | Mismas reglas para Codex | Mantener sincronizado con este archivo |
+| `AGENTS.md` (este) | Reglas y ruteo | Siempre (se carga solo) |
+| `CLAUDE.md` | Mismas reglas para Claude | Mantener sincronizado con este archivo |
 | `PERFIL.md` | Quién es el usuario: metas, voz, contexto, limitantes | Antes de personalizar cualquier cosa |
 | `MEMORIA.md` | Datos sueltos con fecha que no van en otro lado | Cuando necesites contexto reciente |
 | `Inbox/` | Capturas rápidas sin procesar — la puerta de entrada | Al procesar o hacer revisión |
@@ -48,8 +48,8 @@ un `INDEX.md`.
 - **Captura rápida** (nota suelta, link, idea a medio cocinar, "guárdame esto para
   después") → tira un archivo en `Inbox/`. No lo clasifiques al momento; se ordena
   después.
-- **Regla o comportamiento fijo** (siempre haz X, nunca hagas Y) → este `CLAUDE.md`
-  y `AGENTS.md`, o el `SKILL.md` de la habilidad correspondiente si la regla solo
+- **Regla o comportamiento fijo** (siempre haz X, nunca hagas Y) → este `AGENTS.md`
+  y `CLAUDE.md`, o el `SKILL.md` de la habilidad correspondiente si la regla solo
   aplica a esa habilidad.
 - **Dato sobre el usuario** (durable: metas, voz, limitantes) → `PERFIL.md`.
 - **Dato suelto o aprendizaje** que no va en un proyecto ni en el perfil → agrega una
@@ -103,8 +103,8 @@ Si `PERFIL.md` todavía tiene marcadores sin llenar (`POR DEFINIR:` / `{{...}}`)
 ## Mapa de la carpeta
 
 ```
-CLAUDE.md      ← este router (se carga solo)
-AGENTS.md      ← router equivalente para Codex
+AGENTS.md      ← este router (se carga solo)
+CLAUDE.md      ← router equivalente para Claude
 README.md      ← guía de arranque para humanos
 PERFIL.md      ← todo sobre el usuario
 MEMORIA.md     ← registro de datos sueltos con fecha

@@ -16,6 +16,11 @@ allowed-tools:
 
 # Mi Voz — proto
 
+Nota de compatibilidad: el bloque `allowed-tools` del frontmatter es para Claude.
+En Codex, lee esta skill como instrucciones operativas y usa las herramientas
+equivalentes disponibles para leer el perfil, editar archivos si hace falta y hacer
+preguntas al usuario cuando sea indispensable.
+
 Escribe como el usuario. No simules su voz — **adóptala**. Simular produce texto que
 suena bien pero es intercambiable. Adoptar produce texto que solo esa persona podría
 haber escrito.

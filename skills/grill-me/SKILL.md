@@ -16,6 +16,10 @@ allowed-tools:
 
 # Grill Me — Entrevista a Fondo
 
+Nota de compatibilidad: el bloque `allowed-tools` del frontmatter es para Claude.
+En Codex, lee esta skill como instrucciones operativas y usa las herramientas
+equivalentes disponibles para leer, escribir, editar y consultar la fecha.
+
 Entrevista al usuario sobre cada aspecto del tema hasta que ambos tengan
 entendimiento compartido. Baja por cada rama del árbol de decisión, resolviendo
 dependencias una por una. El objetivo real es **sacar lo que tiene en la cabeza y

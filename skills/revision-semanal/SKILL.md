@@ -16,6 +16,11 @@ allowed-tools:
 
 # Revisión Semanal
 
+Nota de compatibilidad: el bloque `allowed-tools` del frontmatter es para Claude.
+En Codex, lee esta skill como instrucciones operativas y usa las herramientas
+equivalentes disponibles para leer, escribir, editar, listar archivos y consultar la
+fecha.
+
 El ritual que convierte carpetas en un *sistema*. Dos trabajos: **reportar** (qué
 pasó, qué está atorado) y **mantener** (rutar, podar, archivar). Se corre cuando el
 usuario lo pida o semanalmente.
