@@ -4,6 +4,30 @@ Una carpeta simple para organizar tu vida, tus proyectos y tus ideas con ayuda d
 tu asistente de IA. Funciona con Claude y con Codex: abre esta carpeta en tu
 herramienta preferida y empieza a hablar.
 
+---
+
+## Ábrelo en Obsidian (recomendado)
+
+Este kit es una carpeta de archivos Markdown. Lo puedes leer con cualquier editor,
+pero está pensado para [Obsidian](https://obsidian.md) — una app gratuita para tomar
+notas. Ya trae configuración lista (`.obsidian/`): plugins útiles, notas diarias en
+`Diario/`, y las notas nuevas caen directo al `Inbox/`.
+
+Para empezar:
+
+1. **Descarga Obsidian** desde [obsidian.md/download](https://obsidian.md/download) e
+   instala la app (gratis, Windows / Mac / Linux).
+2. **Descarga este kit** desde GitHub: botón verde **`Code`** ▸ **`Download ZIP`**.
+   Descomprime el ZIP donde quieras guardarlo.
+3. **Abre Obsidian** y elige **"Open folder as vault"** (Abrir carpeta como bóveda).
+4. **Selecciona la carpeta** que descomprimiste (`second-brain-starter-kit`).
+5. Cuando Obsidian pregunte si confías en los plugins de la comunidad, acepta para
+   activar los que ya vienen configurados (búsqueda, archivos recientes, barra de
+   edición).
+
+Listo: la bóveda abre con todo ordenado. Ahora conecta tu asistente de IA (Claude o
+Codex) apuntando a la misma carpeta y empieza a hablar.
+
 ## Qué hay adentro
 
 | Archivo / carpeta | Para qué sirve |
@@ -15,6 +39,7 @@ herramienta preferida y empieza a hablar.
 | `Inbox/` | Tu buzón de entrada: tira aquí lo que se te ocurra y después lo ordenas. |
 | `Proyectos/` | Una carpeta por cada proyecto. Cada uno tiene su propio archivo con toda la info. |
 | `skills/` | Habilidades especiales de tu asistente (entrevistarte, escribir en tu voz, revisión semanal). |
+| `.obsidian/` | Configuración lista de Obsidian: plugins, notas diarias y ajustes. No necesitas tocarla. |
 
 ---
 

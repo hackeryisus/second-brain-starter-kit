@@ -1,1 +1,5 @@
 .DS_Store
+
+# Estado local de Obsidian (cada quien el suyo, no se comparte)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
